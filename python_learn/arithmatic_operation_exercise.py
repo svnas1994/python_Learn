@@ -1,10 +1,10 @@
 """This programme is for arithmatic operation of two numbers"""
 a = int(input("enter the number"))
 b = int(input("enter the number"))
-print ("for addtion enter add\
-        for subtraction etner sub\
-        for multipliction enter mul\
-        for remainder of division add rem")
+print ("for addtion enter add\n\
+for subtraction etner sub\n\
+for multipliction enter mul\n\
+for remainder of division add rem")
 c=input("enter your required operation").lower()
 def add(a, b):
     '''adding the two numbers'''
@@ -14,7 +14,7 @@ def sub(a, b):
     print (a-b)
 def mul(a, b):
     '''multiplication the two numbers'''
-    print (a-b)
+    print (a*b)
 def rem(a,b):
     ''' remainder of divison'''
     print(a%b)
