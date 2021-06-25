@@ -7,4 +7,6 @@ print (a[1:3])
 ''' exercising the for loop on a list '''
 for i in range (len(a)):
     print (i, a[i])
+
+print ("pythoon list")
     
